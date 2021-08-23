@@ -1,0 +1,296 @@
+﻿
+@{
+    ViewBag.Title = "Productos";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Shop | E-Shopper</title>
+    <link href="~/Assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Assets/css/prettyPhoto.css" rel="stylesheet">
+    <link href="~/Assets/css/price-range.css" rel="stylesheet">
+    <link href="~/Assets/css/animate.css" rel="stylesheet">
+    <link href="~/Assets/css/main.css" rel="stylesheet">
+    <link href="~/Assets/css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="~/Assets/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/Assets/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/Assets/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/Assets/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="~/Assets/images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+  
+
+   
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="left-sidebar">
+                        <h2>Category</h2>
+                        <div class="panel-group category-products" id="accordian">
+                            <!--category-productsr-->
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("PC","Inicio")">PCs & Laptos</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Almacenamiento","Inicio")">Almacenamiento</a></h4>
+                                </div>                    
+</div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("UPS","Inicio")">UPS</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Teclados","Inicio")">Teclados</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Mouse","Inicio")">Mouse</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Monitores","Inicio")">Monitores</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Procesadores","Inicio")">Procesadores</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Cases","Inicio")">Cases</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("FuentesPoder","Inicio")">Fuentes de Poder</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Enfriamiento","Inicio")">Enfriamiento</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("TarjetasVideo","Inicio")">Tarjetas de Video</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("TarjetasRam","Inicio")">Tarjetas Ram</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("TarjetaMadre","Inicio")">Tarjeta Madre</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Ventiladores","Inicio")"></a>Ventiladores</h4>
+                                </div>
+                            </div>
+
+                        </div><!--/category-products-->
+
+                       
+
+                      
+                        <div class="shipping text-center">
+                            <!--shipping-->
+                            <img src="~/Assets/images/home/entrega.jpg" alt="" />
+                        </div><!--/shipping-->
+                
+
+                    </div>
+                </div>
+
+                 <div class="col-sm-9 padding-right">
+                    <div class="features_items">
+                        <!--features_items-->
+                        <h2 class="title text-center">Features Items</h2>
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="~/Assets/images/PRODUCTOS/FUENTEPODER/AEROCOOL CYLON 700W ARGB - 80 PLUS BRONZE.jpg" alt="" />
+                                        <h2>₡29000</h2>
+                                        <p>AEROCOOL CYLON 700W</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡29000</h2>
+                                            <p>AEROCOOL CYLON 700W ARGB - 80 PLUS BRONZE</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                      <img src="~/Assets/images/PRODUCTOS/FUENTEPODER/ASUS ROG THOR 850P - 80 PLUS PLATINUM.jpg" alt="" />
+                                        <h2>₡161000</h2>
+                                        <p>ASUS ROG THOR 850P</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡161000</h2>
+                                            <p>ASUS ROG THOR 850P - 80 PLUS PLATINUM</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                       <img src="~/Assets/images/PRODUCTOS/FUENTEPODER/ASUS ROG THOR 1200P - 80 PLUS PLATINUM.jpg" alt="" />
+                                        <h2>₡268000</h2>
+                                        <p>ASUS ROG THOR 1200P</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡268000</h2>
+                                            <p>ASUS ROG THOR 1200P - 80 PLUS PLATINUM</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                       <img src="~/Assets/images/PRODUCTOS/FUENTEPODER/AZZA PSAZ 750W ARGB - 80 PLUS BRONZE.png" alt="" />
+                                        <h2>₡39000</h2>
+                                        <p>AZZA PSAZ 750W ARGB</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡39000</h2>
+                                            <p>AZZA PSAZ 750W ARGB - 80 PLUS BRONZE</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                    <img src="~/Assets/images/home/new.png" class="new" alt="" />
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="~/Assets/images/PRODUCTOS/FUENTEPODER/GIGABYTE P850GM - 80 PLUS GOLD.jpg" alt="" />
+                                        <h2>₡82000</h2>
+                                        <p>GIGABYTE P850GM</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡82000</h2>
+                                            <p>GIGABYTE P850GM - 80 PLUS GOLD</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                    <img src="~/Assets/images/home/sale.png" class="new" alt="" />
+                                </div>
+                             
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                       <img src="~/Assets/images/PRODUCTOS/FUENTEPODER/REDRAGON RGPS 700W - 80 PLUS BRONZE - MODULAR.jpg" alt="" />
+                                        <h2>₡39000</h2>
+                                        <p>REDRAGON RGPS 700W</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡39000</h2>
+                                            <p>REDRAGON RGPS 700W - 80 PLUS BRONZE - MODULAR</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                         <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                       <img src="~/Assets/images/PRODUCTOS/FUENTEPODER/SEASONIC FOCUS GX-750 - 80 PLUS GOLD.jpg" alt="" />
+                                        <h2>₡75000</h2>
+                                        <p>SEASONIC FOCUS GX-750</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡75000</h2>
+                                            <p>SEASONIC FOCUS GX-750 - 80 PLUS GOLD</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                         
+                         
+                         
+                        
+
+                    </div><!--features_items-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="~/Assets/js/jquery.js"></script>
+    <script src="~/Assets/js/price-range.js"></script>
+    <script src="~/Assets/js/jquery.scrollUp.min.js"></script>
+    <script src="~/Assets/js/bootstrap.min.js"></script>
+    <script src="~/Assets/js/jquery.prettyPhoto.js"></script>
+    <script src="~/Assets/js/main.js"></script>
+</body>
+</html>

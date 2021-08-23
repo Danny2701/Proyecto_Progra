@@ -1,0 +1,311 @@
+﻿
+@{
+    ViewBag.Title = "Productos";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Shop | E-Shopper</title>
+    <link href="~/Assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Assets/css/prettyPhoto.css" rel="stylesheet">
+    <link href="~/Assets/css/price-range.css" rel="stylesheet">
+    <link href="~/Assets/css/animate.css" rel="stylesheet">
+    <link href="~/Assets/css/main.css" rel="stylesheet">
+    <link href="~/Assets/css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="~/Assets/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/Assets/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/Assets/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/Assets/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="~/Assets/images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+  
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="left-sidebar">
+                        <h2>Category</h2>
+                        <div class="panel-group category-products" id="accordian">
+                            <!--category-productsr-->
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("PC","Inicio")">PCs & Laptos</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Almacenamiento","Inicio")">Almacenamiento</a></h4>
+                                </div>                    
+</div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("UPS","Inicio")">UPS</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Teclados","Inicio")">Teclados</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Mouse","Inicio")">Mouse</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Monitores","Inicio")">Monitores</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Procesadores","Inicio")">Procesadores</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Cases","Inicio")">Cases</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("FuentesPoder","Inicio")">Fuentes de Poder</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Enfriamiento","Inicio")">Enfriamiento</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("TarjetasVideo","Inicio")">Tarjetas de Video</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("TarjetasRam","Inicio")">Tarjetas Ram</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("TarjetaMadre","Inicio")">Tarjeta Madre</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Ventiladores","Inicio")"></a>Ventiladores</h4>
+                                </div>
+                            </div>
+
+                        </div><!--/category-products-->
+
+                       
+
+                      
+                        <div class="shipping text-center">
+                            <!--shipping-->
+                            <img src="~/Assets/images/home/entrega.jpg" alt="" />
+                        </div><!--/shipping-->
+                
+
+                    </div>
+                </div>
+
+                 <div class="col-sm-9 padding-right">
+                    <div class="features_items">
+                        <!--features_items-->
+                        <h2 class="title text-center">Features Items</h2>
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="~/Assets/images/PRODUCTOS/TarjetaMadre/ASROCK A320M-HDV R4.0.png" alt="" />
+                                        <h2>₡39000</h2>
+                                        <p>ASROCK A320M-HDV R4.0</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡39000</h2>
+                                            <p>ASROCK A320M-HDV R4.0</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                      <img src="~/Assets/images/PRODUCTOS/TarjetaMadre/ASROCK X570 TAICHI RAZER EDITION.jpg" alt="" />
+                                        <h2>₡275000</h2>
+                                        <p>ASROCK X570 TAICHI</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡275000</h2>
+                                            <p>ASROCK X570 TAICHI RAZER EDITION</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                       <img src="~/Assets/images/PRODUCTOS/TarjetaMadre/ASUS PRIME A520M-K.png" alt="" />
+                                        <h2>₡55000</h2>
+                                        <p>ASUS PRIME A520M-K</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡55000</h2>
+                                            <p>ASUS PRIME A520M-K</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                       <img src="~/Assets/images/PRODUCTOS/TarjetaMadre/ASUS ROG STRIX B450 F GAMING II.jpg" alt="" />
+                                        <h2>₡104000</h2>
+                                        <p>ASUS ROG STRIX B450 GAMING II</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡104000</h2>
+                                            <p>ASUS ROG STRIX B450 F GAMING II</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                    <img src="~/Assets/images/home/new.png" class="new" alt="" />
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="~/Assets/images/PRODUCTOS/TarjetaMadre/GIGABYTE A520M S2H.jpg" alt="" />
+                                        <h2>₡56000</h2>
+                                        <p>GIGABYTE A520M S2H</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡56000</h2>
+                                            <p>GIGABYTE A520M S2H</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                    <img src="~/Assets/images/home/sale.png" class="new" alt="" />
+                                </div>
+                             
+                            </div>
+                        </div>
+                         <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                       <img src="~/Assets/images/PRODUCTOS/TarjetaMadre/GIGABYTE Z590 AORUS MASTER.jpg" alt="" />
+                                        <h2>₡316000</h2>
+                                        <p>GIGABYTE Z590 AORUS MASTER</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡316000</h2>
+                                            <p>GIGABYTE Z590 AORUS MASTER</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                         <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                       <img src="~/Assets/images/PRODUCTOS/TarjetaMadre/MSI B450M PRO-VDH MAX.png" alt="" />
+                                        <h2>₡59000</h2>
+                                        <p>MSI B450M PRO-VDH MAX</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡59000</h2>
+                                            <p>MSI B450M PRO-VDH MAX</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                         <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                       <img src="~/Assets/images/PRODUCTOS/TarjetaMadre/MSI MPG Z590 GAMING FORCE.jpg" alt="" />
+                                        <h2>₡249000</h2>
+                                        <p>MSI MPG Z590 GAMING FORCE</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡249000</h2>
+                                            <p>MSI MPG Z590 GAMING FORCE</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                       
+
+                    </div><!--features_items-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="~/Assets/js/jquery.js"></script>
+    <script src="~/Assets/js/price-range.js"></script>
+    <script src="~/Assets/js/jquery.scrollUp.min.js"></script>
+    <script src="~/Assets/js/bootstrap.min.js"></script>
+    <script src="~/Assets/js/jquery.prettyPhoto.js"></script>
+    <script src="~/Assets/js/main.js"></script>
+</body>
+</html>

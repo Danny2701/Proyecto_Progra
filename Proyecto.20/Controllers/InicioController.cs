@@ -25,6 +25,62 @@ namespace Proyecto._20.Controllers
         {
             return View();
         }
+        public ActionResult PC()
+        {
+            return View();
+        }
+        public ActionResult Almacenamiento()
+        {
+            return View();
+        }
+        public ActionResult UPS()
+        {
+            return View();
+        }
+        public ActionResult Teclados()
+        {
+            return View();
+        }
+        public ActionResult Mouse()
+        {
+            return View();
+        }
+        public ActionResult Monitores()
+        {
+            return View();
+        }
+        public ActionResult Procesadores()
+        {
+            return View();
+        }
+        public ActionResult Cases()
+        {
+            return View();
+        }
+        public ActionResult FuentesPoder()
+        {
+            return View();
+        }
+        public ActionResult Enfriamiento()
+        {
+            return View();
+        }
+        public ActionResult TarjetasVideo()
+        {
+            return View();
+        }
+        public ActionResult TarjetasRam()
+        {
+            return View();
+        }
+        public ActionResult TarjetaMadre()
+        {
+            return View();
+        }
+        public ActionResult Ventiladores()
+        {
+            return View();
+        }
         public ActionResult Carrito()
         {
             return View();

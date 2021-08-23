@@ -1,0 +1,294 @@
+﻿
+@{
+    ViewBag.Title = "Productos";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Shop | E-Shopper</title>
+    <link href="~/Assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Assets/css/prettyPhoto.css" rel="stylesheet">
+    <link href="~/Assets/css/price-range.css" rel="stylesheet">
+    <link href="~/Assets/css/animate.css" rel="stylesheet">
+    <link href="~/Assets/css/main.css" rel="stylesheet">
+    <link href="~/Assets/css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="~/Assets/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/Assets/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/Assets/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/Assets/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="~/Assets/images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+  
+
+    
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="left-sidebar">
+                        <h2>Category</h2>
+                        <div class="panel-group category-products" id="accordian">
+                            <!--category-productsr-->
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("PC","Inicio")">PCs & Laptos</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Almacenamiento","Inicio")">Almacenamiento</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("UPS","Inicio")">UPS</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Teclados","Inicio")">Teclados</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Mouse","Inicio")">Mouse</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Monitores","Inicio")">Monitores</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Procesadores","Inicio")">Procesadores</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Cases","Inicio")">Cases</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("FuentesPoder","Inicio")">Fuentes de Poder</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Enfriamiento","Inicio")">Enfriamiento</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("TarjetasVideo","Inicio")">Tarjetas de Video</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("TarjetasRam","Inicio")">Tarjetas Ram</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("TarjetaMadre","Inicio")">Tarjeta Madre</a></h4>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a href="@Url.Action("Ventiladores","Inicio")"></a>Ventiladores</h4>
+                                </div>
+                            </div>
+
+                        </div><!--/category-products-->
+
+                       
+
+                      
+                        <div class="shipping text-center">
+                            <!--shipping-->
+                            <img src="~/Assets/images/home/entrega.jpg" alt="" />
+                        </div><!--/shipping-->
+                
+
+                    </div>
+                </div>
+
+                 <div class="col-sm-9 padding-right">
+                    <div class="features_items">
+                        <!--features_items-->
+                        <h2 class="title text-center">Features Items</h2>
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="~/Assets/images/PRODUCTOS/TARJETAVIDEO/AORUS GEFORCE RTX 3070 MASTER 8 GB.jpg" alt="" />
+                                        <h2>₡685000</h2>
+                                        <p>AORUS GEFORCE RTX 3070 8GB</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡685000</h2>
+                                            <p>AORUS GEFORCE RTX 3070 MASTER 8 GB</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                      <img src="~/Assets/images/PRODUCTOS/TARJETAVIDEO/AORUS GEFORCE RTX 3070TI MASTER 8 GB.png" alt="" />
+                                        <h2>₡735000</h2>
+                                        <p>AORUS GEFORCE RTX 3070TI 8GB</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡735000</h2>
+                                            <p>AORUS GEFORCE RTX 3070TI MASTER 8 GB</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                       <img src="~/Assets/images/PRODUCTOS/TARJETAVIDEO/ASUS TUF GEFORCE RTX 3080TI OC 12 GB.png" alt="" />
+                                        <h2>₡1299000</h2>
+                                        <p>ASUS GEFORCE RTX 3080TI 12GB</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡1299000</h2>
+                                            <p>ASUS TUF GEFORCE RTX 3080TI OC 12 GB</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                       <img src="~/Assets/images/PRODUCTOS/TARJETAVIDEO/GIGABYTE GEFORCE RTX 2060 OC 6 GB.jpg" alt="" />
+                                        <h2>₡335000</h2>
+                                        <p>GIGABYTE GEFORCE RTX 2060 6GB</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡335000</h2>
+                                            <p>GIGABYTE GEFORCE RTX 2060 OC 6 GB</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                    <img src="~/Assets/images/home/new.png" class="new" alt="" />
+                                </div>
+                                
+                            </div>
+                        </div>
+                       
+                        
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                       <img src="~/Assets/images/PRODUCTOS/TARJETAVIDEO/MSI GEFORCE RTX 3080TI VENTUS 3X OC 12 GB.jpg" alt="" />
+                                        <h2>₡1149000</h2>
+                                        <p>MSI GEFORCE RTX 3080TI 12GB</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡1149000</h2>
+                                            <p>MSI GEFORCE RTX 3080TI VENTUS 3X OC 12 GB</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                         <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                       <img src="~/Assets/images/PRODUCTOS/TARJETAVIDEO/BIOSTAR GEFORCE 210 1 GB.png" alt="" />
+                                        <h2>₡24000</h2>
+                                        <p>BIOSTAR GEFORCE 210 1GB</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡24000</h2>
+                                            <p>BIOSTAR GEFORCE 210 1GB</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                         <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                       <img src="~/Assets/images/PRODUCTOS/TARJETAVIDEO/BIOSTAR GEFORCE GT 1030 4 GB.jpg" alt="" />
+                                        <h2>₡82000</h2>
+                                        <p>BIOSTAR GEFORCE GT1030 4GB</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <h2>₡82000</h2>
+                                            <p>BIOSTAR GEFORCE GT 1030 4 GB</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir a Carrito</a>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+            
+                       
+
+                    </div><!--features_items-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="~/Assets/js/jquery.js"></script>
+    <script src="~/Assets/js/price-range.js"></script>
+    <script src="~/Assets/js/jquery.scrollUp.min.js"></script>
+    <script src="~/Assets/js/bootstrap.min.js"></script>
+    <script src="~/Assets/js/jquery.prettyPhoto.js"></script>
+    <script src="~/Assets/js/main.js"></script>
+</body>
+</html>

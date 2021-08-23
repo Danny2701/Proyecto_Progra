@@ -79,7 +79,6 @@ D:\.NET\Proyecto.20\Proyecto.20\bin\es\System.Web.Razor.resources.dll
 D:\.NET\Proyecto.20\Proyecto.20\bin\es\System.Web.WebPages.resources.dll
 D:\.NET\Proyecto.20\Proyecto.20\bin\es\System.Web.WebPages.Deployment.resources.dll
 D:\.NET\Proyecto.20\Proyecto.20\bin\es\System.Web.WebPages.Razor.resources.dll
-D:\.NET\Proyecto.20\Proyecto.20\obj\Debug\Proyecto.20.csprojAssemblyReference.cache
 D:\.NET\Proyecto.20\Proyecto.20\obj\Debug\Proyecto.20.csproj.CoreCompileInputs.cache
 D:\.NET\Proyecto.20\Proyecto.20\obj\Debug\Proyecto.20.csproj.CopyComplete
 D:\.NET\Proyecto.20\Proyecto.20\obj\Debug\Proyecto.20.dll
